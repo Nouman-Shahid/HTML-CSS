@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+
+}
+
+body {
+    height: auto;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+
+nav {
+
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+
+    height: 50px;
+    position: relative;
+    left: -10px;
+    top: -5px;
+    box-shadow: 4px 4px 10px rgba(59, 48, 160, 0.5);
+    border: 2px solid black;
+    border-radius: 50%;
+
+}
+
+nav h1 {
+
+    color: rgb(127, 127, 209);
+    font-size: 30px;
+    position: relative;
+    top: -5px;
+}
+
+
+nav ul {
+
+    display: flex;
+}
+
+nav ul li {
+
+    list-style: none;
+    margin: 15px;
+    font-size: 22px;
+}
+
+nav ul li a {
+
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+
+    color: blue;
+}
+
+
+nav ul li select {
+
+    border: none;
+    font-size: 20px;
+    border: none;
+}
+
+nav ul li button {
+
+    position: relative;
+    top: -8px;
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+button:hover {
+
+    scale: 0.9;
+}
+
+.menu{
+
+    height: 50px;
+    display: none;
+}
+
+
+section {
+
+    position: relative;
+    top: 10vh;
+    height: auto;
+}
+
+section h1 {
+
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(49, 49, 92);
+}
+
+section p {
+
+    font-size: 25px;
+    font-weight: 700;
+    margin: 10px;
+    color: rgb(49, 49, 92);
+
+}
+
+section button {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+content {
+
+    position: relative;
+    top: 100px;
+    display: flex;
+    margin: 30px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+content div {
+
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    align-items: center;
+    padding: 8px;
+    background-color: white;
+    height: auto;
+    width: 200px;
+}
+
+content div:hover {
+
+    scale: 1.05;
+}
+
+content div img {
+
+    height: 50px;
+    margin: 10px;
+}
+
+content div h2 {
+
+    margin: 10px;
+    color: rgb(12, 12, 143);
+}
+
+content div p {
+    margin: 10px;
+    color: rgb(49, 49, 70);
+}
+
+#stock {
+
+    position: relative;
+    top: 20px;
+    display: flex;
+    margin: 30px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+#stock div {
+
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    background-color: white;
+    border-radius: 10px;
+    height: auto;
+    width: 200px;
+    flex-wrap: wrap;
+}
+
+#stock div:hover {
+
+    scale: 1.05;
+}
+
+#stock div img {
+
+    height: 100px;
+    margin: 10px;
+    mix-blend-mode: multiply;
+}
+
+#stock div h2 {
+
+    margin: 10px;
+    color: rgb(12, 12, 143);
+}
+
+#stock div p {
+    margin: 10px;
+    color: rgb(49, 49, 70);
+}
+
+#stock button {
+
+    background-color: rgb(184, 184, 22);
+    color: white;
+    font-size: 13px;
+    padding: 8px 50px;
+    border: none;
+    border-radius: 20px;
+}
+
+#stocks {
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(49, 49, 92);
+    display: flex;
+    margin-top: 220px;
+    justify-content: center;
+}
+
+#team {
+
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(49, 49, 92);
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+}
+
+#content {
+
+    margin-top: -50px;
+}
+
+
+footer {
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    position: relative;
+    padding: 20px 0px;
+    background-color: rgb(102, 102, 139);
+    color: white;
+}
+footer h3{
+
+    font-size: 1 rem;
+}
